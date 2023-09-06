@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  margin-bottom: 15px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.links > *:not(:last-child) {
+  margin-right: 15px;
+}
+.link:hover {
+  border-bottom: 1px solid #333;
+}
