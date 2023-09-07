@@ -2,21 +2,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 45px;
-  margin-bottom: 15px;
+  padding: 15px 0;
 }
-.logo {
-  font-weight: 700;
-  font-size: 22px;
-}
+
 .links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 18px;
+  height: 40px;
 }
 .links > *:not(:last-child) {
   margin-right: 15px;
 }
 .link:hover {
   border-bottom: 1px solid #333;
+}
+.logo{
+  border-radius: 50%;
+  background-color: azure;
+  -webkit-box-shadow: 2px 2px 6px 0px azure;
+  -moz-box-shadow: 2px 2px 6px 0px azure;
+  box-shadow: 2px 2px 6px 0px azure;
+  width: 40px;
+  height: 40px;
 }
